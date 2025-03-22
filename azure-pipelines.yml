@@ -1,6 +1,7 @@
 name: Azure Pipelines
 variables:
   python.version: '3.7.6'
+  AZURE_DEVOPS_EXT_PIPELINE_TIMESTAMPS: true
 stages:
 - stage: Build
   jobs:
